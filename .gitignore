@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.env
+*.key
+*.pem
+
+# =========================
+# Ollama / LLM local artifacts
+# =========================
+.ollama/
+models/
+*.gguf
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# =========================
+# Logs & runtime output
+# =========================
+*.log
+logs/
+
+# =========================
+# Generated reports (keep if you want versioned output)
+# =========================
+# Uncomment if you do NOT want reports tracked
+# security_report.md
+
+# =========================
+# Test artifacts / temp files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Jupyter (if ever used)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Coverage / testing
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Node / misc (defensive)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
